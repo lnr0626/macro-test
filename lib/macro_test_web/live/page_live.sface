@@ -28,6 +28,7 @@
   </article>
   <article class="column">
     <h2>Help</h2>
+    <h3><#MacroTestWeb.Components.Macro value="Hello, World!" /></h3>
     <ul>
       <li>
         <a href="https://elixirforum.com/c/phoenix-forum">Forum</a>
