@@ -3,7 +3,7 @@ defmodule MacroTestWeb.Components.Macro do
 
   property(value, :string)
 
-  def expand(attributes, children, meta) do
+  def expand(attributes, _children, meta) do
     props = Surface.MacroComponent.eval_static_props!(__MODULE__, attributes, meta)
 
     [
